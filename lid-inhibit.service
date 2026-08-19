@@ -1,0 +1,6 @@
+[Unit]
+Description=Prevent suspend on lid close
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/systemd-inhibit --what=handle-lid-switch --who="Lid Inhibit" --why="Suspend on lid close disabled" --mode=block /usr/bin/sleep infinity
