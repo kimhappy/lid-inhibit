@@ -1,0 +1,7 @@
+{
+  "uuid": "lid-inhibit@kimhappy",
+  "name": "Lid Inhibit",
+  "description": "Toggle suspend on lid close from Quick Settings.",
+  "shell-version": [ "48", "49", "50" ],
+  "version": 1
+}
